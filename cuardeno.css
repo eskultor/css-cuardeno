@@ -1,0 +1,78 @@
+body
+{
+	background: rgb(237,237,242);
+	background: linear-gradient(135deg, black 0%, lightyellow 74%, black 100%);
+}
+.titulo
+{
+	text-align: center;
+	font-size: 50px;
+	color: yellow;
+	text-shadow: 0px 0px 5px black;
+	text-transform: uppercase;
+}
+
+.padre
+{
+	background-color: darkslateblue;
+	width: 350px;
+	height: 500px;
+	border: 2px groove black;
+	border-radius: 4px 10px 10px 4px;
+	box-shadow: 10px 0px 1px whitesmoke,12px 0px 1px black, 15px 0px 6px black;
+	padding-top: .1px;
+	margin-left: 500px;
+}
+.padre1
+{
+	width: 200px;
+	height: 200px;
+	border: 2px groove black;
+	background-color: lightgrey;
+	background-image: url("../../logotipo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.padre2
+{
+	width: 250px;
+	height: 50px;
+	border-radius: 25%;
+	border: 2px groove black;
+	background-color: red;
+	margin-left: 80px;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	line-height: 50px;
+	text-shadow: 2px 0px 2px whitesmoke;
+}
+.hijo
+{
+	background-color: white;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 7px;
+	position: relative;
+	box-shadow: 0px 40px white,0px 80px white,0px 120px white,0px 160px white,0px 200px white,0px 240px white,
+	0px 280px white,0px 320px white,0px 360px white,0px 400px white,0px 440px white;
+	padding-top: .1px;
+}
+.nieto
+{
+	width: 30px;
+	height: 2.5px;
+	background-color: black;
+	border: 3px solid black;
+	border-radius: 25%;
+	margin-top: 8px;
+	margin-left: -20px;
+	box-shadow: 0px 40px black,0px 80px black,0px 120px black,0px 160px black,0px 200px black,0px 240px black,
+	0px 280px black,0px 320px black,0px 360px black,0px 400px black,0px 440px black;
+}
